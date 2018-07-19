@@ -82,6 +82,23 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- webresource-api brings in the SimpleUrlReadingCondition -->
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-webresource-api</artifactId>
+            <version>3.5.34</version>
+        </dependency>
+
+        <!-- webfragment brings in BaseCondition -->
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-webfragment</artifactId>
+            <version>4.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+
         <!-- WIRED TEST RUNNER DEPENDENCIES -->
         <dependency>
             <groupId>com.atlassian.plugins</groupId>
