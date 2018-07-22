@@ -97,6 +97,12 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- Needed for IntelliJ to resolve Condition -->
+        <dependency>
+            <groupId>com.atlassian.plugins</groupId>
+            <artifactId>atlassian-plugins-webfragment-api</artifactId>
+            <version>4.1.0</version>
+        </dependency>
 
 
         <!-- WIRED TEST RUNNER DEPENDENCIES -->
