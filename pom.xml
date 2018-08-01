@@ -98,18 +98,22 @@
         </dependency>
 
         <!-- Needed for IntelliJ to resolve Condition -->
+        <!--
         <dependency>
             <groupId>com.atlassian.plugins</groupId>
             <artifactId>atlassian-plugins-webfragment-api</artifactId>
             <version>4.1.0</version>
         </dependency>
+        -->
 
         <!-- Needed for IntelliJ to resolve PluginParseException -->
+        <!--
         <dependency>
             <groupId>com.atlassian.plugins</groupId>
             <artifactId>atlassian-plugins-api</artifactId>
             <version>4.1.15</version>
         </dependency>
+        -->
 
         <!-- Licensing support: https://developer.atlassian.com/platform/marketplace/adding-licensing-support-to-server-apps/ -->
         <dependency>
@@ -161,6 +165,8 @@
                             <dataVersion>${bitbucket.data.version}</dataVersion>
                         </product>
                     </products>
+                    <enableQuickReload>true</enableQuickReload>
+                    <enableFastdev>false</enableFastdev>
                     <instructions>
                         <Atlassian-Plugin-Key>${atlassian.plugin.key}</Atlassian-Plugin-Key>
 

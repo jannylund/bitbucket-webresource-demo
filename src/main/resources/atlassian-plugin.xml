@@ -5,11 +5,9 @@
         <vendor name="${project.organization.name}" url="${project.organization.url}" />
         <param name="plugin-icon">images/pluginIcon.png</param>
         <param name="plugin-logo">images/pluginLogo.png</param>
+        <param name="atlassian-licensing-enabled">true</param>
     </plugin-info>
 
-    <!-- add our i18n resource -->
-    <resource type="i18n" name="i18n" location="webresource-demo"/>
-    
     <!-- add our web resources -->
     <web-resource key="webresource-demo-resources" name="webresource-demo Web Resources">
         <dependency>com.atlassian.auiplugin:ajs</dependency>
